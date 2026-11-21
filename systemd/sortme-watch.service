@@ -1,0 +1,14 @@
+[Unit]
+Description=sortME - watch inbox for exported tabs
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/azawa/sortme
+Environment=CONFIG=/home/azawa/sortme/config.json
+ExecStart=/usr/bin/python3 /home/azawa/sortme/tabs_to_obsidian.py watch --dir /home/azawa/sortme/Inbox --interval 30 --llm
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

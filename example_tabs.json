@@ -1,0 +1,42 @@
+{
+  "exported_at": "2026-11-21T12:00:00Z",
+  "source": "ejemplo",
+  "tabs": [
+    {
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762"
+    },
+    {
+      "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP",
+      "url": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+      "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+      "url": "https://arxiv.org/abs/2106.09685"
+    },
+    {
+      "title": "Chain-of-Thought Prompting Elicits Reasoning in LLMs",
+      "url": "https://arxiv.org/abs/2201.11903"
+    },
+    {
+      "title": "vLLM: Efficient Memory Management for LLM Serving",
+      "url": "https://arxiv.org/abs/2309.06180"
+    },
+    {
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155"
+    },
+    {
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability via RL",
+      "url": "https://arxiv.org/abs/2501.12948"
+    },
+    {
+      "title": "Building effective agents",
+      "url": "https://www.anthropic.com/research/building-effective-agents"
+    },
+    {
+      "title": "The Illustrated Transformer",
+      "url": "https://jalammar.github.io/illustrated-transformer/"
+    }
+  ]
+}

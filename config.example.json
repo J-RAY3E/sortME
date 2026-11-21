@@ -1,0 +1,13 @@
+{
+  "vault": "/home/azawa/Documents/Obsidian Vault",
+  "sources_dir": "Fuentes",
+  "topics_dir": "Temas",
+  "preset": "balanced",
+  "skills_dir": "skills",
+  "llm": {
+    "url": "http://127.0.0.1:8080/v1/chat/completions",
+    "model": "local-llm",
+    "timeout": 300,
+    "rel_timeout": 900
+  }
+}

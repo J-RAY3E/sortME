@@ -1,0 +1,16 @@
+[project]
+name = "sortME"
+version = "0.2.0"
+description = "Turn browser tabs into an Obsidian relationship graph with a local LLM"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[project.scripts]
+tabs-to-obsidian = "tabs_to_obsidian:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["tabs_to_obsidian"]

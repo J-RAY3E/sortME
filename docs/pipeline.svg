@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
+  <rect width="900" height="210" fill="#1e1e2e"/>
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#e6e6e6">
+    <rect x="20" y="55" width="150" height="95" rx="10" fill="#313244" stroke="#7c5cff"/>
+    <text x="95" y="92" text-anchor="middle">Browser tabs</text>
+    <text x="95" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">window / groups</text>
+
+    <rect x="210" y="55" width="150" height="95" rx="10" fill="#313244" stroke="#7c5cff"/>
+    <text x="285" y="92" text-anchor="middle">tabs.json</text>
+    <text x="285" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">export</text>
+
+    <rect x="400" y="25" width="200" height="70" rx="10" fill="#2a2b3d" stroke="#f9e2af"/>
+    <text x="500" y="55" text-anchor="middle">Pass 1</text>
+    <text x="500" y="76" text-anchor="middle" font-size="11" fill="#a6adc8">descriptions · topics · level</text>
+
+    <rect x="400" y="115" width="200" height="70" rx="10" fill="#2a2b3d" stroke="#f9e2af"/>
+    <text x="500" y="145" text-anchor="middle">Pass 2</text>
+    <text x="500" y="166" text-anchor="middle" font-size="11" fill="#a6adc8">prerequisites · related</text>
+
+    <rect x="640" y="55" width="150" height="95" rx="10" fill="#313244" stroke="#a6e3a1"/>
+    <text x="715" y="92" text-anchor="middle">Obsidian vault</text>
+    <text x="715" y="114" text-anchor="middle" font-size="11" fill="#a6adc8">notes + graph + path</text>
+
+    <g stroke="#7c5cff" stroke-width="2" fill="none">
+      <path d="M170 102 H210"/>
+      <path d="M360 102 H400 M360 102 V60 H400"/>
+      <path d="M360 102 V150 H400"/>
+      <path d="M600 60 H640 M600 150 H640"/>
+    </g>
+    <text x="450" y="20" text-anchor="middle" font-size="11" fill="#a6adc8">local model (OpenAI-compatible)</text>
+  </g>
+</svg>

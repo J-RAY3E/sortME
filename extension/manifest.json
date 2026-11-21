@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs → Obsidian LLM Queue",
+  "short_name": "Tabs→Obsidian",
+  "version": "0.1.0",
+  "description": "Exporta las pestañas de la ventana actual o de un grupo a JSON para importarlas en Obsidian.",
+  "permissions": ["tabs", "tabGroups", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Exportar pestañas a Obsidian"
+  }
+}

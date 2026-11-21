@@ -1,0 +1,37 @@
+[
+  {
+    "title_contains": "Attention Is All You Need",
+    "topics": ["Transformers & Attention"],
+    "related_contains": "transformer"
+  },
+  {
+    "title_contains": "Retrieval-Augmented Generation",
+    "topics": ["RAG"],
+    "related_contains": ""
+  },
+  {
+    "title_contains": "LoRA",
+    "topics": ["Fine-tuning & PEFT"],
+    "related_contains": ""
+  },
+  {
+    "title_contains": "Chain-of-Thought Prompting",
+    "topics": ["Prompting", "Reasoning"],
+    "related_contains": ""
+  },
+  {
+    "title_contains": "vLLM",
+    "topics": ["Inference & Optimization"],
+    "related_contains": ""
+  },
+  {
+    "title_contains": "Building effective agents",
+    "topics": ["Agents & Tools"],
+    "related_contains": ""
+  },
+  {
+    "title_contains": "The Illustrated Transformer",
+    "topics": ["Transformers & Attention"],
+    "related_contains": ""
+  }
+]

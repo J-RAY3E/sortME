@@ -1,0 +1,265 @@
+{
+  "Transformers & Attention": {
+    "tag": "transformers",
+    "keywords": [
+      "transformer",
+      "attention",
+      "self-attention",
+      "multi-head",
+      "positional encoding",
+      "bert",
+      "gpt",
+      "flash attention"
+    ]
+  },
+  "RAG": {
+    "tag": "rag",
+    "keywords": [
+      "rag",
+      "retrieval",
+      "retrieval-augmented",
+      "vector database",
+      "dense retrieval",
+      "bm25",
+      "reranker",
+      "chunking",
+      "pinecone"
+    ]
+  },
+  "Fine-tuning & PEFT": {
+    "tag": "fine-tuning",
+    "keywords": [
+      "fine-tuning",
+      "fine tuning",
+      "finetuning",
+      "fine-tune",
+      "lora",
+      "qlora",
+      "peft",
+      "adapter",
+      "instruction tuning",
+      "sft",
+      "dpo",
+      "smol training"
+    ]
+  },
+  "Prompting": {
+    "tag": "prompting",
+    "keywords": [
+      "prompt engineering",
+      "chain of thought",
+      "few-shot",
+      "zero-shot",
+      "prompting",
+      "prompt",
+      "cot"
+    ]
+  },
+  "Agents & Tools": {
+    "tag": "agents",
+    "keywords": [
+      "agent",
+      "agentic",
+      "tool use",
+      "function calling",
+      "langchain",
+      "autogpt",
+      "toolformer",
+      "mcp",
+      "multi-agent"
+    ]
+  },
+  "Evaluation & Benchmarks": {
+    "tag": "evaluation",
+    "keywords": [
+      "benchmark",
+      "evaluation",
+      "evals",
+      "eval",
+      "leaderboard",
+      "mmlu",
+      "humaneval",
+      "gsm8k",
+      "metric",
+      "mlperf"
+    ]
+  },
+  "RLHF & Alignment": {
+    "tag": "alignment",
+    "keywords": [
+      "rlhf",
+      "alignment",
+      "safety",
+      "reward model",
+      "ppo",
+      "instructgpt",
+      "red team",
+      "guardrail",
+      "jailbreak"
+    ]
+  },
+  "Inference & Optimization": {
+    "tag": "inference",
+    "keywords": [
+      "quantization",
+      "inference",
+      "serving",
+      "vllm",
+      "gguf",
+      "llama.cpp",
+      "latency",
+      "throughput",
+      "distillation",
+      "kv cache",
+      "speculative decoding",
+      "mixture-of-experts"
+    ]
+  },
+  "Embeddings": {
+    "tag": "embeddings",
+    "keywords": [
+      "embedding",
+      "embeddings",
+      "sentence-transformers",
+      "cosine similarity",
+      "text-embedding",
+      "vector representation"
+    ]
+  },
+  "Multimodal": {
+    "tag": "multimodal",
+    "keywords": [
+      "multimodal",
+      "vision language",
+      "clip",
+      "gpt-4v",
+      "whisper",
+      "image",
+      "video",
+      "audio",
+      "speech"
+    ]
+  },
+  "Training & Scaling": {
+    "tag": "training",
+    "keywords": [
+      "pretraining",
+      "pre-training",
+      "training",
+      "scaling law",
+      "compute",
+      "dataset",
+      "data pipeline",
+      "distributed",
+      "deepspeed",
+      "megatron",
+      "scaling transformers"
+    ]
+  },
+  "Reasoning": {
+    "tag": "reasoning",
+    "keywords": [
+      "reasoning",
+      "o1",
+      "o3",
+      "deepseek-r1",
+      "math",
+      "logic",
+      "chain-of-thought"
+    ]
+  },
+  "Tokenization": {
+    "tag": "tokenization",
+    "keywords": [
+      "tokenization",
+      "tokenisation",
+      "tokenizer",
+      "byte pair encoding",
+      "bpe",
+      "sentencepiece",
+      "vocab"
+    ]
+  },
+  "Context & Memory": {
+    "tag": "context",
+    "keywords": [
+      "long context",
+      "context window",
+      "context length",
+      "memory",
+      "longformer",
+      "ring attention",
+      "needle in a haystack"
+    ]
+  },
+  "Open Models": {
+    "tag": "open-models",
+    "keywords": [
+      "llama",
+      "mistral",
+      "qwen",
+      "gemma",
+      "open weights",
+      "open-source model",
+      "open source llm"
+    ]
+  },
+  "Interpretability": {
+    "tag": "interpretability",
+    "keywords": [
+      "interpretability",
+      "mechanistic interpretability",
+      "neurons",
+      "features",
+      "circuits",
+      "activation",
+      "probing",
+      "transparency"
+    ]
+  },
+  "Deep Learning Fundamentals": {
+    "tag": "deep-learning",
+    "keywords": [
+      "backpropagation",
+      "backprop",
+      "gradient descent",
+      "lenet",
+      "mnist",
+      "activation function",
+      "normalizing flow",
+      "neural network",
+      "approximation theory",
+      "optimization",
+      "convolution"
+    ]
+  },
+  "NLP Foundations": {
+    "tag": "nlp",
+    "keywords": [
+      "natural language processing",
+      "nlp",
+      "language model",
+      "sequence",
+      "linguistics",
+      "pos tagging",
+      "machine translation"
+    ]
+  },
+  "Interview Prep": {
+    "tag": "interview",
+    "keywords": [
+      "interview",
+      "questions and answers",
+      "must-know",
+      "leetcode",
+      "take-home",
+      "assignment",
+      "syllabus",
+      "course"
+    ]
+  },
+  "General": {
+    "tag": "general",
+    "keywords": []
+  }
+}

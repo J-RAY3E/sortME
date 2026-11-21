@@ -1,0 +1,21 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Syntax check
+        run: python3 -m py_compile tabs_to_obsidian.py
+      - name: Offline pipeline tests
+        run: python3 -m unittest discover -s tests -v
+      - name: Validate JSON files
+        run: python3 -c "import json; [json.load(open(f)) for f in ['topics.json','config.example.json','eval/labels.json','extension/manifest.json']]; print('JSON OK')"

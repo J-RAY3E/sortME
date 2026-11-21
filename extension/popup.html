@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tabs → Obsidian</title>
+  <style>
+    :root { color-scheme: dark; }
+    body { font: 13px/1.4 system-ui, sans-serif; width: 300px; padding: 12px; margin: 0; color: #e6e6e6; background: #1e1e1e; }
+    h1 { font-size: 15px; margin: 0 0 4px; }
+    .hint { font-size: 11px; opacity: .65; margin: 0 0 10px; }
+    label.row { display: flex; align-items: center; gap: 7px; padding: 4px 0; cursor: pointer; }
+    label.row input { margin: 0; }
+    .sub { font-size: 10px; opacity: .65; margin: 10px 0 4px; text-transform: uppercase; letter-spacing: .05em; }
+    .group { display: flex; align-items: center; gap: 7px; padding: 4px 0; cursor: pointer; }
+    .dot { width: 9px; height: 9px; border-radius: 50%; flex: 0 0 auto; }
+    .gname { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .gcount { font-size: 11px; opacity: .55; }
+    .options { border-top: 1px solid #333; margin-top: 10px; padding-top: 6px; }
+    button { width: 100%; padding: 8px; margin-top: 7px; border: 0; border-radius: 6px; cursor: pointer; font-weight: 600; }
+    #download { background: #7c5cff; color: #fff; }
+    #copy-json { background: #333; color: #ddd; }
+    #copy-md { background: #2a2a2a; color: #bbb; }
+    #count { font-size: 11px; opacity: .7; margin-top: 9px; min-height: 14px; }
+    #msg { font-size: 11px; color: #8ce99a; margin-top: 3px; min-height: 14px; }
+  </style>
+</head>
+<body>
+  <h1>📚 Tabs → Obsidian</h1>
+  <p class="hint">Export the current window or any tab groups.</p>
+
+  <label class="row"><input type="checkbox" id="window" checked> Current window</label>
+  <div class="sub">Tab groups in this window</div>
+  <div id="groups"></div>
+
+  <div class="options">
+    <label class="row"><input type="checkbox" id="per-group"> One file per group</label>
+    <label class="row"><input type="checkbox" id="dedupe" checked> Remove duplicate URLs</label>
+    <label class="row"><input type="checkbox" id="skip-internal" checked> Skip internal pages</label>
+  </div>
+
+  <button id="download">Download JSON</button>
+  <button id="copy-json">Copy JSON</button>
+  <button id="copy-md">Copy as Markdown links</button>
+  <div id="count"></div>
+  <div id="msg"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
